@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D3C75C9E-B3B7-4D31-ABF8-8C4F7FA1B176}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoCreditos</RootNamespace>
+    <AssemblyName>ProyectoCreditos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConexionBaseDeDatos\ConectarBD.cs" />
+    <Compile Include="ControlObjetosClientes\ControlObjetos.cs" />
+    <Compile Include="ControlObjetosCuentas\ControlObjetos.cs" />
+    <Compile Include="ControlObjetosMovimientos\ControlObjetos.cs" />
+    <Compile Include="ControlObjetosNivelesYFunciones\ControlObjetos.cs" />
+    <Compile Include="ControlOjetosUsuarios\ControlObjetos.cs" />
+    <Compile Include="CreditosDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreditosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CreditosDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreditosDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento Movimientos\ConsultarMovimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento Movimientos\ConsultarMovimiento.Designer.cs">
+      <DependentUpon>ConsultarMovimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento Movimientos\EliminarMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento Movimientos\EliminarMovimientos.Designer.cs">
+      <DependentUpon>EliminarMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimiento Movimientos\RegistrarMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimiento Movimientos\RegistrarMovimientos.Designer.cs">
+      <DependentUpon>RegistrarMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoClientes\ConsultarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoClientes\ConsultarClientes.Designer.cs">
+      <DependentUpon>ConsultarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoClientes\ModificarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoClientes\ModificarClientes.Designer.cs">
+      <DependentUpon>ModificarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoClientes\RegistrarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoClientes\RegistrarClientes.Designer.cs">
+      <DependentUpon>RegistrarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoCuentas\ActualizarMontoLimite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCuentas\ActualizarMontoLimite.Designer.cs">
+      <DependentUpon>ActualizarMontoLimite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoCuentas\ConsultarCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCuentas\ConsultarCuentas.Designer.cs">
+      <DependentUpon>ConsultarCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoCuentas\ActivarDesactivarCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCuentas\ActivarDesactivarCuentas.Designer.cs">
+      <DependentUpon>ActivarDesactivarCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoCuentas\RegistrarCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoCuentas\RegistrarCuentas.Designer.cs">
+      <DependentUpon>RegistrarCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoFunciones\ActualizarFuncionDeUnNivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoFunciones\ActualizarFuncionDeUnNivel.Designer.cs">
+      <DependentUpon>ActualizarFuncionDeUnNivel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoFunciones\RegistroDeFunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoFunciones\RegistroDeFunciones.Designer.cs">
+      <DependentUpon>RegistroDeFunciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoNiveles\VisualizarNiveles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoNiveles\VisualizarNiveles.Designer.cs">
+      <DependentUpon>VisualizarNiveles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoNiveles\RegistroDeNiveles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoNiveles\RegistroDeNiveles.Designer.cs">
+      <DependentUpon>RegistroDeNiveles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteMovimientoDeBitacoraPorUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteMovimientoDeBitacoraPorUsuario.Designer.cs">
+      <DependentUpon>ReporteMovimientoDeBitacoraPorUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteMovimientoDeBitacoraEntreFechas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\.Designer.cs">
+      <DependentUpon>ReporteMovimientoDeBitacoraEntreFechas.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteDeTodosLosUS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteDeTodosLosUS.Designer.cs">
+      <DependentUpon>ReporteDeTodosLosUS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarTodosLosUSPorNivel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarTodosLosUSPorNivel.Designer.cs">
+      <DependentUpon>ReportarTodosLosUSPorNivel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteMovimientosPorTransaccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteMovimientosPorTransaccion.Designer.cs">
+      <DependentUpon>ReporteMovimientosPorTransaccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteDeTodosLosClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteDeTodosLosClientes.Designer.cs">
+      <DependentUpon>ReporteDeTodosLosClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarClientesPorCaracter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarClientesPorCaracter.Designer.cs">
+      <DependentUpon>ReportarClientesPorCaracter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarCuentasActivasYDesactivas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarCuentasActivasYDesactivas.Designer.cs">
+      <DependentUpon>ReportarCuentasActivasYDesactivas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarMovimientosPorFechas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarMovimientosPorFechas.Designer.cs">
+      <DependentUpon>ReportarMovimientosPorFechas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarMovimientosDeCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarMovimientosDeCuenta.Designer.cs">
+      <DependentUpon>ReportarMovimientosDeCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarMovimientosPorDetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReportarMovimientosPorDetalle.Designer.cs">
+      <DependentUpon>ReportarMovimientosPorDetalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteTodasLasCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoReportes\ReporteTodasLasCuentas.Designer.cs">
+      <DependentUpon>ReporteTodasLasCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\ConsultarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\ConsultarUsuario.Designer.cs">
+      <DependentUpon>ConsultarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\ActDesactUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\ActDesactUsuario.Designer.cs">
+      <DependentUpon>ActDesactUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\EliminarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\EliminarUsuario.Designer.cs">
+      <DependentUpon>EliminarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\ModificarUsusarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\ModificarUsusarios.Designer.cs">
+      <DependentUpon>ModificarUsusarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\RegistrarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MantenimientoUsuarios\RegistrarUsuarios.Designer.cs">
+      <DependentUpon>RegistrarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal\InicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal\InicioSesion.Designer.cs">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPrincipal\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModeloBitacora\ModeloDatos.cs" />
+    <Compile Include="ModeloDatos\ModeloDato.cs" />
+    <Compile Include="ModeloFunciones\ModeloDatos.cs" />
+    <Compile Include="ModeloMovimientos\ModeloDatos.cs" />
+    <Compile Include="ModeloNiveles\ModeloDatos.cs" />
+    <Compile Include="ModeloReportes\ModeloDatos.cs" />
+    <Compile Include="ModeloUsuarios\ModeloDatos.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Mantenimiento Movimientos\ConsultarMovimiento.resx">
+      <DependentUpon>ConsultarMovimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento Movimientos\EliminarMovimientos.resx">
+      <DependentUpon>EliminarMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimiento Movimientos\RegistrarMovimientos.resx">
+      <DependentUpon>RegistrarMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoClientes\ConsultarClientes.resx">
+      <DependentUpon>ConsultarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoClientes\ModificarClientes.resx">
+      <DependentUpon>ModificarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoClientes\RegistrarClientes.resx">
+      <DependentUpon>RegistrarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCuentas\ActivarDesactivarCuentas.resx">
+      <DependentUpon>ActivarDesactivarCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCuentas\ActualizarMontoLimite.resx">
+      <DependentUpon>ActualizarMontoLimite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCuentas\ConsultarCuentas.resx">
+      <DependentUpon>ConsultarCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoCuentas\RegistrarCuentas.resx">
+      <DependentUpon>RegistrarCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoFunciones\ActualizarFuncionDeUnNivel.resx">
+      <DependentUpon>ActualizarFuncionDeUnNivel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoFunciones\RegistroDeFunciones.resx">
+      <DependentUpon>RegistroDeFunciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoNiveles\RegistroDeNiveles.resx">
+      <DependentUpon>RegistroDeNiveles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoNiveles\VisualizarNiveles.resx">
+      <DependentUpon>VisualizarNiveles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReportarTodosLosUSPorNivel.resx">
+      <DependentUpon>ReportarTodosLosUSPorNivel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReporteDeTodosLosUS.resx">
+      <DependentUpon>ReporteDeTodosLosUS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReporteMovimientoDeBitacoraEntreFechas.resx">
+      <DependentUpon>ReporteMovimientoDeBitacoraEntreFechas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReporteMovimientoDeBitacoraPorUsuario.resx">
+      <DependentUpon>ReporteMovimientoDeBitacoraPorUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReporteMovimientosPorTransaccion.resx">
+      <DependentUpon>ReporteMovimientosPorTransaccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReporteDeTodosLosClientes.resx">
+      <DependentUpon>ReporteDeTodosLosClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReportarClientesPorCaracter.resx">
+      <DependentUpon>ReportarClientesPorCaracter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReportarCuentasActivasYDesactivas.resx">
+      <DependentUpon>ReportarCuentasActivasYDesactivas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReportarMovimientosPorFechas.resx">
+      <DependentUpon>ReportarMovimientosPorFechas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReportarMovimientosDeCuenta.resx">
+      <DependentUpon>ReportarMovimientosDeCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReportarMovimientosPorDetalle.resx">
+      <DependentUpon>ReportarMovimientosPorDetalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoReportes\ReporteTodasLasCuentas.resx">
+      <DependentUpon>ReporteTodasLasCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoUsuarios\ActDesactUsuario.resx">
+      <DependentUpon>ActDesactUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoUsuarios\ConsultarUsuario.resx">
+      <DependentUpon>ConsultarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoUsuarios\EliminarUsuario.resx">
+      <DependentUpon>EliminarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoUsuarios\ModificarUsusarios.resx">
+      <DependentUpon>ModificarUsusarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MantenimientoUsuarios\RegistrarUsuarios.resx">
+      <DependentUpon>RegistrarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal\InicioSesion.resx">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="CreditosDataSet.xsc">
+      <DependentUpon>CreditosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CreditosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CreditosDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CreditosDataSet.xss">
+      <DependentUpon>CreditosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CreditosDataSet1.xsc">
+      <DependentUpon>CreditosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CreditosDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CreditosDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CreditosDataSet1.xss">
+      <DependentUpon>CreditosDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="IMAGENES\22aba5e7-b5aa-4d85-8e50-22eacc234315.jpeg" />
+    <Content Include="IMAGENES\actualizar.png" />
+    <Content Include="IMAGENES\agregar.png" />
+    <Content Include="IMAGENES\amarillo.jpeg" />
+    <Content Include="IMAGENES\basura.png" />
+    <Content Include="IMAGENES\busqueda.png" />
+    <Content Include="IMAGENES\comprobacion-de-lista %281%29.png" />
+    <Content Include="IMAGENES\comprobacion-de-lista.png" />
+    <Content Include="IMAGENES\cuadrado-x.png" />
+    <Content Include="IMAGENES\estadisticas %281%29.png" />
+    <Content Include="IMAGENES\flecha-izquierda.png" />
+    <Content Include="IMAGENES\fond.jpg" />
+    <Content Include="IMAGENES\lapiz.png" />
+    <Content Include="IMAGENES\limpiar.png" />
+    <Content Include="IMAGENES\nubes.jpg" />
+    <Content Include="IMAGENES\salida-del-portal.png" />
+    <Content Include="IMAGENES\tarjeta-de-credito.png" />
+    <Content Include="IMAGENES\usuario %281%29.png" />
+    <Content Include="IMAGENES\usuario.png" />
+    <Content Include="IMAGENES\verdes.jpg" />
+    <None Include="Resources\globo.png" />
+    <None Include="Resources\usuario %281%29.png" />
+    <None Include="Resources\usuarios-alt %281%29.png" />
+    <None Include="Resources\amarillo.jpeg" />
+    <None Include="Resources\estadisticas %281%29.png" />
+    <None Include="Resources\comprobacion-de-lista %281%29.png" />
+    <None Include="Resources\fond.jpg" />
+    <None Include="Resources\actualizar.png" />
+    <None Include="Resources\22aba5e7-b5aa-4d85-8e50-22eacc234315.jpeg" />
+    <None Include="Resources\cuadritos marrones.jpeg" />
+    <None Include="Resources\brown.jpeg" />
+    <None Include="Resources\flecha-izquierda.png" />
+    <None Include="Resources\basura.png" />
+    <None Include="Resources\agregar.png" />
+    <None Include="Resources\busqueda.png" />
+    <None Include="Resources\azul.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

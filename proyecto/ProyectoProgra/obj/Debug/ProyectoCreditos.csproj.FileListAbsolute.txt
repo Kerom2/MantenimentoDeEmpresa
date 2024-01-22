@@ -1,0 +1,92 @@
+D:\ProyectoCreditos\bin\Debug\ProyectoCreditos.exe.config
+D:\ProyectoCreditos\bin\Debug\ProyectoCreditos.exe
+D:\ProyectoCreditos\bin\Debug\ProyectoCreditos.pdb
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.AssemblyReference.cache
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.RegistrarClientes.resources
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.Properties.Resources.resources
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.GenerateResource.cache
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.CoreCompileInputs.cache
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.exe
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.pdb
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.ConsultarClientes.resources
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.ModificarClientes.resources
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ConsultarCuentas.resources
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.RegistrarCuentas.resources
+D:\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ActivarDesactivarCuentas.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.AssemblyReference.cache
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.ConsultarClientes.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.ModificarClientes.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.RegistrarClientes.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ActivarDesactivarCuentas.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ConsultarCuentas.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.RegistrarCuentas.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.Properties.Resources.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.GenerateResource.cache
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.CoreCompileInputs.cache
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.exe
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.pdb
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\bin\Debug\ProyectoCreditos.exe.config
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\bin\Debug\ProyectoCreditos.exe
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\bin\Debug\ProyectoCreditos.pdb
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ActualizarMontoLimite.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MenuPrincipal.Menu.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.RegistrarMovimientos.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.ConsultarMovimiento.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.SuggestedBindingRedirects.cache
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\bin\Debug\ProyectoCreditos.exe.config
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\bin\Debug\ProyectoCreditos.exe
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\bin\Debug\ProyectoCreditos.pdb
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.AssemblyReference.cache
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.SuggestedBindingRedirects.cache
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.ConsultarMovimiento.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.RegistrarMovimientos.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.ConsultarClientes.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.ModificarClientes.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.RegistrarClientes.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ActivarDesactivarCuentas.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ActualizarMontoLimite.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ConsultarCuentas.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.RegistrarCuentas.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MenuPrincipal.Menu.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.Properties.Resources.resources
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.GenerateResource.cache
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.CoreCompileInputs.cache
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.exe
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.pdb
+E:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.EliminarMovimientos.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.EliminarMovimientos.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReporteTodasLasClientes.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReporteTodasLasCuentas.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarCuentasActivasYDesactivas.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarMovimientosDeCuenta.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarmMovimientosPorFechas.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarMovimientosPorDetalle.resources
+D:\Curso Electivo 2023 CTP\Programación\Segundo Período\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarClientesPorCaracter.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.AssemblyReference.cache
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.SuggestedBindingRedirects.cache
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.ConsultarMovimiento.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.EliminarMovimientos.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.Mantenimiento_Movimientos.RegistrarMovimientos.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.ConsultarClientes.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.ModificarClientes.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoClientes.RegistrarClientes.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ActivarDesactivarCuentas.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ActualizarMontoLimite.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.ConsultarCuentas.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoCuentas.RegistrarCuentas.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarClientesPorCaracter.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarCuentasActivasYDesactivas.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarmMovimientosPorFechas.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarMovimientosDeCuenta.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReportarMovimientosPorDetalle.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReporteTodasLasClientes.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MantenimientoReportes.ReporteTodasLasCuentas.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.MenuPrincipal.Menu.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.Properties.Resources.resources
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.GenerateResource.cache
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.csproj.CoreCompileInputs.cache
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.exe
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\obj\Debug\ProyectoCreditos.pdb
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\bin\Debug\ProyectoCreditos.exe.config
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\bin\Debug\ProyectoCreditos.exe
+C:\Users\jptoc\Downloads\ProyectoCreditos\ProyectoCreditos\bin\Debug\ProyectoCreditos.pdb
